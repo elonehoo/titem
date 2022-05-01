@@ -4,7 +4,9 @@
 
 <h1 align="center">Titem</h1>
 
-<em align="center">Starter template for TypeScript library</em>
+<p align="center">
+  <em>Starter template for TypeScript library</em>
+</p>
 
 If you want a TypeScript package that is [like this](https://www.npmjs.com/settings/titlem/packages), then this repository has everything you need.
 
