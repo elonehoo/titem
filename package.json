@@ -1,5 +1,6 @@
 {
   "name": "@titem/monorepo",
+  "private":"true",
   "description": "Starter template for TypeScript library",
   "author": "Elone Hoo <huchengyea@163.com>",
   "type": "module",
