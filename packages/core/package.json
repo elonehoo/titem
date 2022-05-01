@@ -3,7 +3,7 @@
   "version": "0.0.7",
   "type": "module",
   "description": "Starter template for TypeScript library",
-  "main": "./src/index.ts",
+  "main": "index.ts",
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
   "scripts": {
