@@ -1,6 +1,6 @@
 {
   "name": "@titem/util",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "type": "module",
   "description": "Starter template for TypeScript library",
   "main": "./src/index.ts",
