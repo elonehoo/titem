@@ -1,7 +1,8 @@
 {
-  "name": "@elonehoo/titem-monorepo",
+  "name": "@titem/monorepo",
   "description": "Starter template for TypeScript library",
   "author": "Elone Hoo <huchengyea@163.com>",
+  "type": "module",
   "license": "MIT",
   "version": "0.0.1",
   "scripts": {
