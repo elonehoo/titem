@@ -12,12 +12,12 @@
     "test": "vitest"
   },
   "devDependencies": {
+    "@titem/util": "workspace:*",
+    "@titem/convert": "workspace:*",
     "@types/node": "^17.0.30",
     "rimraf": "^3.0.2",
     "typescript": "^4.5.4",
     "unbuild": "^0.7.4",
-    "vitest": "^0.10.0",
-    "@titem/util": "workspace:*",
-    "@titem/convert": "workspace:*"
+    "vitest": "^0.10.0"
   }
 }
