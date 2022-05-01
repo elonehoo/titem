@@ -1,11 +1,10 @@
 {
   "name": "@titem/convert",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Starter template for TypeScript library",
   "main": "./src/index.ts",
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
-
   "scripts": {
     "build": "rimraf dist && unbuild",
     "stub": "unbuild --stub",
