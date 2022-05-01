@@ -1,6 +1,6 @@
 {
   "name": "@titem/convert",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Starter template for TypeScript library",
   "main": "./src/index.ts",
   "author": "Elone Hoo <huchengyea@163.com>",
