@@ -1,6 +1,6 @@
 {
   "name": "@titem/util",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "type": "module",
   "description": "Starter template for TypeScript library",
   "author": "Elone Hoo <huchengyea@163.com>",
