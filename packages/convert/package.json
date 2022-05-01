@@ -4,6 +4,7 @@
   "version": "0.0.13",
   "description": "Starter template for TypeScript library",
   "author": "Elone Hoo <huchengyea@163.com>",
+  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "rimraf dist && unbuild",
