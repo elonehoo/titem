@@ -8,7 +8,7 @@
   <em>Starter template for TypeScript library</em>
 </p>
 
-If you want a TypeScript package that is [like this](https://www.npmjs.com/settings/titlem/packages), then this repository has everything you need.
+If you want a TypeScript package that is [like this](https://www.npmjs.com/search?q=%40titem), then this repository has everything you need.
 
 ## Features
 
