@@ -1,3 +1,3 @@
-import {convertName} from '@titem/convert'
+import convertName from '@titem/convert'
 
 export default convertName
