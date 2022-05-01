@@ -1,7 +1,7 @@
 {
   "name": "@titem/convert",
   "type": "module",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Starter template for TypeScript library",
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
