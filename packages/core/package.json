@@ -1,6 +1,6 @@
 {
   "name": "@titem/core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "description": "Starter template for TypeScript library",
   "main": "./src/index.ts",
