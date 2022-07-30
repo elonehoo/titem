@@ -12,7 +12,7 @@ If you want a TypeScript package that is [like this](https://www.npmjs.com/searc
 
 ## Features
 
-- ⚡️ [Vite 2](https://github.com/vitejs/vite), [pnpm](https://github.com/pnpm/pnpm) - born with fastness
+- ⚡️ [Vite 3](https://github.com/vitejs/vite), [pnpm](https://github.com/pnpm/pnpm) - born with fastness
 
 - ✅ Use [Vitest](https://github.com/vitest-dev/vitest) for unit and components testings
 

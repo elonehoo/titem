@@ -15,7 +15,7 @@
     "@titem/convert": "workspace:*",
     "@titem/util": "workspace:*",
     "rimraf": "^3.0.2",
-    "tsup": "^6.2.0",
+    "tsup": "^6.2.1",
     "typescript": "^4.7.4"
   }
 }

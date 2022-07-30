@@ -9,7 +9,7 @@ importers:
       '@types/node': ^18.6.2
       bumpp: ^8.2.1
       eslint: ^8.20.0
-      pnpm: ^7.7.0
+      pnpm: ^7.7.1
       typescript: ^4.7.4
       vite: ^3.0.4
       vitest: ^0.19.1
@@ -19,7 +19,7 @@ importers:
       '@types/node': 18.6.2
       bumpp: 8.2.1
       eslint: 8.20.0
-      pnpm: 7.7.0
+      pnpm: 7.7.1
       typescript: 4.7.4
       vite: 3.0.4
       vitest: 0.19.1
@@ -27,11 +27,11 @@ importers:
   packages/convert:
     specifiers:
       rimraf: ^3.0.2
-      tsup: ^6.2.0
+      tsup: ^6.2.1
       typescript: ^4.7.4
     devDependencies:
       rimraf: 3.0.2
-      tsup: 6.2.0_typescript@4.7.4
+      tsup: 6.2.1_typescript@4.7.4
       typescript: 4.7.4
 
   packages/core:
@@ -39,23 +39,23 @@ importers:
       '@titem/convert': workspace:*
       '@titem/util': workspace:*
       rimraf: ^3.0.2
-      tsup: ^6.2.0
+      tsup: ^6.2.1
       typescript: ^4.7.4
     devDependencies:
       '@titem/convert': link:../convert
       '@titem/util': link:../util
       rimraf: 3.0.2
-      tsup: 6.2.0_typescript@4.7.4
+      tsup: 6.2.1_typescript@4.7.4
       typescript: 4.7.4
 
   packages/util:
     specifiers:
       rimraf: ^3.0.2
-      tsup: ^6.2.0
+      tsup: ^6.2.1
       typescript: ^4.7.4
     devDependencies:
       rimraf: 3.0.2
-      tsup: 6.2.0_typescript@4.7.4
+      tsup: 6.2.1_typescript@4.7.4
       typescript: 4.7.4
 
 packages:
@@ -2341,8 +2341,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.7.0:
-    resolution: {integrity: sha512-gI1AONpLi/e9oUKwcPH4pu/kdCnizH7zgIAuXzmvGrOJN1SjL/bXMfCV2jt6+SB3Io+moqNN6xkj0C6a0E7tcg==}
+  /pnpm/7.7.1:
+    resolution: {integrity: sha512-c+ND1UJsA15ZnTW0sUU71YiEB+Xda9crNlLnpNkyQN/LVa7Z8IgH38lVt2zmmG2lpMgBDeOHti4r7mfiwwrKLA==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
@@ -2761,8 +2761,8 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tsup/6.2.0_typescript@4.7.4:
-    resolution: {integrity: sha512-PNRQY/eUrtQgPHITOa9qU1Qss2AKHZl9OJFMsQGF+rpcQBMIYh5i0BUh5Gam8C8J0OuNQOGazqBEQHWMFLJKlQ==}
+  /tsup/6.2.1_typescript@4.7.4:
+    resolution: {integrity: sha512-KhBhCqVA3bHrIWhkcqTUA7R69H05IcBlHEtCVLEu42XDGUzz+bDqCcfu5PwpkKJ8DqK5tpdgM/qmyk4DdUbkZw==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
