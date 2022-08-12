@@ -5,6 +5,7 @@ importers:
   .:
     specifiers:
       '@elonehoo/eslint-config': ^2.0.0
+      '@elonehoo/rimraf': ^0.0.1
       '@titem/core': workspace:*
       '@types/node': ^18.6.2
       bumpp: ^8.2.1
@@ -12,51 +13,30 @@ importers:
       pnpm: ^7.7.1
       typescript: ^4.7.4
       vite: ^3.0.4
-      vitest: ^0.19.1
     devDependencies:
       '@elonehoo/eslint-config': 2.0.0_he2ccbldppg44uulnyq4rwocfa
-      '@titem/core': link:packages/core
+      '@elonehoo/rimraf': 0.0.1
+      '@titem/core': link:core
       '@types/node': 18.6.2
       bumpp: 8.2.1
       eslint: 8.20.0
       pnpm: 7.7.1
       typescript: 4.7.4
       vite: 3.0.4
-      vitest: 0.19.1
 
-  packages/convert:
+  core:
     specifiers:
-      rimraf: ^3.0.2
       tsup: ^6.2.1
-      typescript: ^4.7.4
     devDependencies:
-      rimraf: 3.0.2
-      tsup: 6.2.1_typescript@4.7.4
-      typescript: 4.7.4
+      tsup: 6.2.1
 
-  packages/core:
+  test:
     specifiers:
-      '@titem/convert': workspace:*
-      '@titem/util': workspace:*
-      rimraf: ^3.0.2
-      tsup: ^6.2.1
-      typescript: ^4.7.4
+      '@titem/core': workspace:*
+      vitest: 0.21.1
     devDependencies:
-      '@titem/convert': link:../convert
-      '@titem/util': link:../util
-      rimraf: 3.0.2
-      tsup: 6.2.1_typescript@4.7.4
-      typescript: 4.7.4
-
-  packages/util:
-    specifiers:
-      rimraf: ^3.0.2
-      tsup: ^6.2.1
-      typescript: ^4.7.4
-    devDependencies:
-      rimraf: 3.0.2
-      tsup: 6.2.1_typescript@4.7.4
-      typescript: 4.7.4
+      '@titem/core': link:../core
+      vitest: 0.21.1
 
 packages:
 
@@ -182,6 +162,13 @@ packages:
       - typescript
     dev: true
 
+  /@elonehoo/rimraf/0.0.1:
+    resolution: {integrity: sha512-C3KhcyaMRMSyq76sOAJl7dBefnA65k+MwLm9c43+DGSXaaqB/dv2Aih7kzJnsx81nuaAAi0PK2Zd8AARbOqqQQ==}
+    hasBin: true
+    dependencies:
+      glob: 8.0.3
+    dev: true
+
   /@eslint/eslintrc/1.3.0:
     resolution: {integrity: sha512-UWW0TMTmk2d7hLcWD1/e2g5HDM/HQ3csaLSqXCfqwh4uNDuNqlaKWXmEsL4Cs41Z0KnILNvwbHAah3C2yt06kw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
@@ -248,11 +235,11 @@ packages:
   /@types/chai-subset/1.3.3:
     resolution: {integrity: sha512-frBecisrNGz+F4T6bcc+NLeolfiojh5FxW2klu669+8BARtyQv2C/GkNW6FUodVe4BroGMP/wER/YDGc7rEllw==}
     dependencies:
-      '@types/chai': 4.3.1
+      '@types/chai': 4.3.3
     dev: true
 
-  /@types/chai/4.3.1:
-    resolution: {integrity: sha512-/zPMqDkzSZ8t3VtxOa4KPq7uzzW978M9Tvh+j7GHKuo6k6GTLxPJ4J5gE5cjfJ26pnXst0N5Hax8Sr0T2Mi9zQ==}
+  /@types/chai/4.3.3:
+    resolution: {integrity: sha512-hC7OMnszpxhZPduX+m+nrx+uFoLkWOMiR4oa/AZF3MuSETYTZmFfJAHqZEM8MVlvfG7BEUcgvtwoCTxBp6hm3g==}
     dev: true
 
   /@types/json-schema/7.0.11:
@@ -523,6 +510,12 @@ packages:
     dependencies:
       balanced-match: 1.0.2
       concat-map: 0.0.1
+    dev: true
+
+  /brace-expansion/2.0.1:
+    resolution: {integrity: sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==}
+    dependencies:
+      balanced-match: 1.0.2
     dev: true
 
   /braces/3.0.2:
@@ -1624,6 +1617,17 @@ packages:
       path-is-absolute: 1.0.1
     dev: true
 
+  /glob/8.0.3:
+    resolution: {integrity: sha512-ull455NHSHI/Y1FqGaaYFaLGkNMMJbavMrEGFXG/PGrg6y7sutWHUHrz6gy6WEBH6akM1M414dWKCNs+IhKdiQ==}
+    engines: {node: '>=12'}
+    dependencies:
+      fs.realpath: 1.0.0
+      inflight: 1.0.6
+      inherits: 2.0.4
+      minimatch: 5.1.0
+      once: 1.4.0
+    dev: true
+
   /globals/13.17.0:
     resolution: {integrity: sha512-1C+6nQRb1GwGMKm2dH/E7enFAMxGTmGI7/dEdhy/DNelv85w9B72t3uc5frtMNXIbzrarJJ/lTCjcaZwbLJmyw==}
     engines: {node: '>=8'}
@@ -2077,6 +2081,13 @@ packages:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
     dependencies:
       brace-expansion: 1.1.11
+    dev: true
+
+  /minimatch/5.1.0:
+    resolution: {integrity: sha512-9TPBGGak4nHfGZsPBohm9AWg6NoT7QTCehS3BIJABslyZbzxfV78QM2Y6+i741OPZIafFAaiiEMh5OyIrJPgtg==}
+    engines: {node: '>=10'}
+    dependencies:
+      brace-expansion: 2.0.1
     dev: true
 
   /minimist/1.2.6:
@@ -2761,7 +2772,7 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tsup/6.2.1_typescript@4.7.4:
+  /tsup/6.2.1:
     resolution: {integrity: sha512-KhBhCqVA3bHrIWhkcqTUA7R69H05IcBlHEtCVLEu42XDGUzz+bDqCcfu5PwpkKJ8DqK5tpdgM/qmyk4DdUbkZw==}
     engines: {node: '>=14'}
     hasBin: true
@@ -2791,7 +2802,6 @@ packages:
       source-map: 0.8.0-beta.0
       sucrase: 3.24.0
       tree-kill: 1.2.2
-      typescript: 4.7.4
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -2903,8 +2913,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.19.1:
-    resolution: {integrity: sha512-E/ZXpFMUahn731wzhMBNzWRp4mGgiZFT0xdHa32cbNO0CSaHpE9hTfteEU247Gi2Dula8uXo5vvrNB6dtszmQA==}
+  /vitest/0.21.1:
+    resolution: {integrity: sha512-WBIxuFmIDPuK47GO6Lu9eNeRMqHj/FWL3dk73OHH3eyPPWPiu+UB3QHLkLK2PEggCqJW4FaWoWg8R68S7p9+9Q==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -2928,7 +2938,7 @@ packages:
       jsdom:
         optional: true
     dependencies:
-      '@types/chai': 4.3.1
+      '@types/chai': 4.3.3
       '@types/chai-subset': 1.3.3
       '@types/node': 18.6.2
       chai: 4.3.6

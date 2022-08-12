@@ -1,19 +1,16 @@
 {
-  "name": "@titem/util",
+  "name": "@titem/test",
+  "private": true,
   "version": "1.0.0",
   "type": "module",
   "description": "Starter template for TypeScript library",
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf dist && unbuild",
-    "stub": "unbuild --stub",
-    "prepublishOnly": "pnpm run build",
     "test": "vitest"
   },
   "devDependencies": {
-    "rimraf": "^3.0.2",
-    "tsup": "^6.2.1",
-    "typescript": "^4.7.4"
+    "@titem/core":"workspace:*",
+    "vitest":"0.21.1"
   }
 }
