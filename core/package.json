@@ -6,11 +6,10 @@
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf dist && tsup",
-    "prepublishOnly": "pnpm run build",
-    "test": "vitest"
+    "build": "rimraf dist && vite build",
+    "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
-    "tsup": "^6.2.1"
+    "@elonehoo/vite-plugin-type-ts": "^0.0.1"
   }
 }
