@@ -12,7 +12,7 @@ importers:
       eslint: 8.22.0
       pnpm: 7.9.0
       typescript: 4.7.4
-      vite: 3.0.6
+      vite: 3.0.9
     devDependencies:
       '@elonehoo/eslint-config': 2.0.0_4rv7y5c6xz3vfxwhbrcxxi73bq
       '@elonehoo/rimraf': 0.0.1
@@ -22,7 +22,7 @@ importers:
       eslint: 8.22.0
       pnpm: 7.9.0
       typescript: 4.7.4
-      vite: 3.0.6
+      vite: 3.0.9
 
   core:
     specifiers:
@@ -2924,8 +2924,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/3.0.6:
-    resolution: {integrity: sha512-pjfsWIzfUlQME/VAmU6SsjdHkTt6WAHysuqPkHDcjzNu6IGtxDSZ/VfRYOwHaCqX4M3Ivz0kxuSfAPM6gAIX+w==}
+  /vite/3.0.9:
+    resolution: {integrity: sha512-waYABTM+G6DBTCpYAxvevpG50UOlZuynR0ckTK5PawNVt7ebX6X7wNXHaGIO6wYYFXSM7/WcuFuO2QzhBB6aMw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
