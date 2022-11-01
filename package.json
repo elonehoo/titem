@@ -19,7 +19,7 @@
     "@elonehoo/eslint-config": "2.0.0",
     "@elonehoo/rimraf": "0.0.1",
     "@titem/core": "workspace:*",
-    "@types/node": "18.7.2",
+    "@types/node": "18.11.9",
     "bumpp": "8.2.1",
     "eslint": "8.23.0",
     "pnpm": "7.11.0",
