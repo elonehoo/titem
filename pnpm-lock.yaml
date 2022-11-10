@@ -10,7 +10,7 @@ importers:
       '@types/node': 18.7.2
       bumpp: 8.2.1
       eslint: 8.23.0
-      pnpm: 7.11.0
+      pnpm: 7.15.0
       typescript: 4.8.3
       vite: 3.1.0
     devDependencies:
@@ -20,7 +20,7 @@ importers:
       '@types/node': 18.7.2
       bumpp: 8.2.1
       eslint: 8.23.0
-      pnpm: 7.11.0
+      pnpm: 7.15.0
       typescript: 4.8.3
       vite: 3.1.0
 
@@ -2649,8 +2649,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.11.0:
-    resolution: {integrity: sha512-cxh4TfCE8L4ZbLBN72kTGKTYP7X08nrIzoQ2rQCKihAcIHAdNIgsk4bEJyE1xHjE+bNJt9skwr7aJv3LpvUawQ==}
+  /pnpm/7.15.0:
+    resolution: {integrity: sha512-GGQ5+MCwD0bpq+65uitpgO1+ZusZ1keO5ebG/CH6ciu1ohnZj5Y3X374Ow/CBApa+Jw2/NUifVRz2fW4JChftA==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
