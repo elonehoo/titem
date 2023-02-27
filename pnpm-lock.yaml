@@ -8,7 +8,7 @@ importers:
       '@elonehoo/rimraf': 0.0.1
       '@titem/core': workspace:*
       '@types/node': 18.11.18
-      bumpp: 8.2.1
+      bumpp: 9.0.0
       eslint: 8.31.0
       pnpm: 7.23.0
       typescript: 4.9.4
@@ -18,7 +18,7 @@ importers:
       '@elonehoo/rimraf': 0.0.1
       '@titem/core': link:core
       '@types/node': 18.11.18
-      bumpp: 8.2.1
+      bumpp: 9.0.0
       eslint: 8.31.0
       pnpm: 7.23.0
       typescript: 4.9.4
@@ -269,7 +269,7 @@ packages:
       colors: 1.2.5
       lodash: 4.17.21
       resolve: 1.17.0
-      semver: 7.3.7
+      semver: 7.3.8
       source-map: 0.6.1
       typescript: 4.7.4
     dev: true
@@ -317,7 +317,7 @@ packages:
       import-lazy: 4.0.0
       jju: 1.4.0
       resolve: 1.17.0
-      semver: 7.3.7
+      semver: 7.3.8
       timsort: 0.3.0
       z-schema: 5.0.3
     dev: true
@@ -341,7 +341,7 @@ packages:
   /@ts-morph/common/0.16.0:
     resolution: {integrity: sha512-SgJpzkTgZKLKqQniCjLaE3c2L2sdL7UShvmTmPBejAKd2OKV/yfMpQ2IWpAuA+VY5wy7PkSUaEObIqEK6afFuw==}
     dependencies:
-      fast-glob: 3.2.11
+      fast-glob: 3.2.12
       minimatch: 5.1.0
       mkdirp: 1.0.4
       path-browserify: 1.0.1
@@ -415,7 +415,7 @@ packages:
       functional-red-black-tree: 1.0.1
       ignore: 5.2.0
       regexpp: 3.2.0
-      semver: 7.3.7
+      semver: 7.3.8
       tsutils: 3.21.0_typescript@4.9.4
       typescript: 4.9.4
     transitivePeerDependencies:
@@ -488,7 +488,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.3.7
+      semver: 7.3.8
       tsutils: 3.21.0_typescript@4.9.4
       typescript: 4.9.4
     transitivePeerDependencies:
@@ -649,24 +649,23 @@ packages:
   /builtins/5.0.1:
     resolution: {integrity: sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==}
     dependencies:
-      semver: 7.3.7
+      semver: 7.3.8
     dev: true
 
-  /bumpp/8.2.1:
-    resolution: {integrity: sha512-4tHKsWC2mqHQvdjZ4AXgVhS2xMsz8qQ4zYt87vGRXW5tqAjrYa/UJqy7s/dGYI2OIe9ghBdiFhKpyKEX9SXffg==}
+  /bumpp/9.0.0:
+    resolution: {integrity: sha512-I2+JLFQin46NioHg6wi23hYQMVExiJyGblARp5fIHUzLv3rRz9me38eUe2xlQCAl7Ys9X+SlhTaIkttTxiL6cQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
       '@jsdevtools/ez-spawn': 3.0.4
-      cac: 6.7.12
-      fast-glob: 3.2.11
-      kleur: 4.1.5
+      cac: 6.7.14
+      fast-glob: 3.2.12
       prompts: 2.4.2
-      semver: 7.3.7
+      semver: 7.3.8
     dev: true
 
-  /cac/6.7.12:
-    resolution: {integrity: sha512-rM7E2ygtMkJqD9c7WnFU6fruFcN3xe4FM5yUmgxhZzIKJk4uHl9U/fhwdajGFQbQuv43FAUo1Fe8gX/oIKDeSA==}
+  /cac/6.7.14:
+    resolution: {integrity: sha512-b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ==}
     engines: {node: '>=8'}
     dev: true
 
@@ -1528,7 +1527,7 @@ packages:
       is-core-module: 2.10.0
       minimatch: 3.1.2
       resolve: 1.22.1
-      semver: 7.3.7
+      semver: 7.3.8
     dev: true
 
   /eslint-plugin-promise/6.0.0_eslint@8.31.0:
@@ -1582,7 +1581,7 @@ packages:
       read-pkg-up: 7.0.1
       regexp-tree: 0.1.24
       safe-regex: 2.1.1
-      semver: 7.3.7
+      semver: 7.3.8
       strip-indent: 3.0.0
     dev: true
 
@@ -1597,7 +1596,7 @@ packages:
       natural-compare: 1.4.0
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.10
-      semver: 7.3.7
+      semver: 7.3.8
       vue-eslint-parser: 8.3.0_eslint@8.31.0
     transitivePeerDependencies:
       - supports-color
@@ -1758,6 +1757,17 @@ packages:
 
   /fast-glob/3.2.11:
     resolution: {integrity: sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==}
+    engines: {node: '>=8.6.0'}
+    dependencies:
+      '@nodelib/fs.stat': 2.0.5
+      '@nodelib/fs.walk': 1.2.8
+      glob-parent: 5.1.2
+      merge2: 1.4.1
+      micromatch: 4.0.5
+    dev: true
+
+  /fast-glob/3.2.12:
+    resolution: {integrity: sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==}
     engines: {node: '>=8.6.0'}
     dependencies:
       '@nodelib/fs.stat': 2.0.5
@@ -1951,7 +1961,7 @@ packages:
     dependencies:
       array-union: 2.1.0
       dir-glob: 3.0.1
-      fast-glob: 3.2.11
+      fast-glob: 3.2.12
       ignore: 5.2.0
       merge2: 1.4.1
       slash: 3.0.0
@@ -2244,7 +2254,7 @@ packages:
       acorn: 8.8.0
       eslint-visitor-keys: 3.3.0
       espree: 9.4.0
-      semver: 7.3.7
+      semver: 7.3.8
     dev: true
 
   /jsonfile/4.0.0:
@@ -2271,11 +2281,6 @@ packages:
 
   /kleur/3.0.3:
     resolution: {integrity: sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==}
-    engines: {node: '>=6'}
-    dev: true
-
-  /kleur/4.1.5:
-    resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
     dev: true
 
@@ -2837,8 +2842,8 @@ packages:
     hasBin: true
     dev: true
 
-  /semver/7.3.7:
-    resolution: {integrity: sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==}
+  /semver/7.3.8:
+    resolution: {integrity: sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -3244,7 +3249,7 @@ packages:
       espree: 9.4.0
       esquery: 1.4.0
       lodash: 4.17.21
-      semver: 7.3.7
+      semver: 7.3.8
     transitivePeerDependencies:
       - supports-color
     dev: true
